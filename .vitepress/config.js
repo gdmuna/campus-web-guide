@@ -22,15 +22,15 @@ export default defineConfig({
         nav: [
             { text: '主页', link: '/' },
             { text: '校园网', link: '/web/intro/what-is-campus-web' },
-            { text: '校园 VPN', link: '/vpn/introduction' }
+            { text: '校园 VPN', link: '/vpn/what-is-campus-vpn' }
         ],
         sidebar: {
             vpn: [
                 {
-                    text: '校园 VPN 服务',
+                    text: '校园 VPN',
                     items: [
-                        { text: '简介', link: '/vpn/introduction' },
-                        { text: '如何申请', link: '/vpn/how-to-apply-vpn' },
+                        { text: '简介', link: '/vpn/what-is-campus-vpn' },
+                        { text: '如何申请', link: '/vpn/how-to-apply' },
                         { text: '使用方法（PC端）', link: '/vpn/use-on-pc' },
                         { text: '使用方法（iOS端、iPadOS端）', link: '/vpn/use-on-ios' },
                         { text: '常见问题', link: '/vpn/faq' }
