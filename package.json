@@ -1,0 +1,56 @@
+{
+    "name": "campus-web-guide",
+    "version": "0.0.1",
+    "description": "校园网使用指南",
+    "license": "GPL-3.0-only",
+    "author": {
+        "name": "Seele.Clover",
+        "email": "37256067+seeleclover@users.noreply.github.com",
+        "url": "https://github.com/seeleclover"
+    },
+    "homepage": "https://github.com/gdmuna/campus-web-guide",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gdmuna/campus-web-guide.git"
+    },
+    "engines": {
+        "node": "^18.0.0 || ^20.0.0"
+    },
+    "type": "module",
+    "scripts": {
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview",
+        "eslint": "eslint . --fix",
+        "prettier": "prettier . --write",
+        "prepare": "husky install",
+        "lint:lint-staged": "lint-staged"
+    },
+    "lint-staged": {
+        "*.{js,cjs,mjs,jsx,ts,tsx,html,vue}": [
+        "eslint --fix",
+        "prettier --write"
+        ],
+        "*.{css,scss,less,styl}": [
+        "prettier --write"
+        ],
+        "*.{json,yml,yaml}": [
+        "prettier --write"
+        ],
+        "*.md": [
+        "prettier --write"
+        ]
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "eslint-plugin-vue": "^9.27.0",
+        "husky": "^9.1.4",
+        "lint-staged": "^15.2.8",
+        "prettier": "3.3.3",
+        "vitepress": "^1.3.2",
+        "vue-eslint-parser": "^9.4.3"
+    }
+}
