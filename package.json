@@ -28,17 +28,17 @@
     },
     "lint-staged": {
         "*.{js,cjs,mjs,jsx,ts,tsx,html,vue}": [
-        "eslint --fix",
-        "prettier --write"
+            "eslint --fix",
+            "prettier --write"
         ],
         "*.{css,scss,less,styl}": [
-        "prettier --write"
+            "prettier --write"
         ],
         "*.{json,yml,yaml}": [
-        "prettier --write"
+            "prettier --write"
         ],
         "*.md": [
-        "prettier --write"
+            "prettier --write"
         ]
     },
     "dependencies": {},
