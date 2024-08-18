@@ -32,6 +32,7 @@ export default defineConfig({
                         { text: '简介', link: '/vpn/introduction' },
                         { text: '如何申请', link: '/vpn/how-to-apply-vpn' },
                         { text: '使用方法（PC端）', link: '/vpn/use-on-pc' },
+                        { text: '使用方法（iOS端、iPadOS端）', link: '/vpn/use-on-ios' },
                         { text: '常见问题', link: '/vpn/faq' }
                     ]
                 }
