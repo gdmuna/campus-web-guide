@@ -8,7 +8,8 @@
 
     ![下载 EasyConnect 安装程序](/vpn/use-on-pc/download-installer.png '下载 EasyConnect 安装程序')
 
-    > [!NOTE] 如果电脑是 macOS 系统（比如 MacBook Air、MacBook Pro），请选择 `Mac` 下载选项。  
+    > [!NOTE] 备注：  
+    > 如果电脑是 macOS 系统（比如 MacBook Air、MacBook Pro），请选择 `Mac` 下载选项。  
     > 如果电脑是 Linux 系统，请选择 `Linux` 下载选项。
 
 3.  执行下载好的 EasyConnect 安装程序。
@@ -33,7 +34,8 @@
 
     ![登录 VPN](/vpn/use-on-pc/user-login.png '登录 VPN')
 
-    > [!IMPORTANT] 如果是通过 `开通校园网` **自动获得** 的 VPN 账号 —— **用户名** 为学号， **密码** 为校园网密码。  
+    > [!IMPORTANT] 重要消息：  
+    > 如果是通过 `开通校园网` **自动获得** 的 VPN 账号 —— **用户名** 为学号， **密码** 为校园网密码。  
     > 如果是通过 `广东医网办大厅` **另外申请** 的 VPN 账号 —— **用户名** 和 **密码** 会在申请通过后在审批意见中给出。
 
 7.  登录成功后， EasyConnect 会显示校内资源导航页面，此时可以<u>最小化或关闭此页面</u>（因为这里的资源大部分人都用不上），然后<u>直接打开浏览器访问各种校内网站</u>。
