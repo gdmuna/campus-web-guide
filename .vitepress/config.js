@@ -5,9 +5,7 @@ export default defineConfig({
     lang: 'zh-CN',
     title: '校园网使用指南',
     description: 'A Site of How to Use Campus Web in GDMU.',
-    head: [
-        ['link', { rel: 'icon', href: '/logo.svg' }]
-    ],
+    head: [['link', { rel: 'icon', href: '/logo.svg' }]],
     base: '/',
     cleanUrls: true,
     appearance: true,
@@ -24,19 +22,20 @@ export default defineConfig({
         nav: [
             { text: '主页', link: '/' },
             { text: '校园网', link: '/web/intro/what-is-campus-web' },
-            { text: '校园 VPN', link: '/vpn/introduction' },
+            { text: '校园 VPN', link: '/vpn/introduction' }
         ],
         sidebar: {
-            'vpn': [
+            vpn: [
                 {
                     text: '校园 VPN 服务',
                     items: [
                         { text: '简介', link: '/vpn/introduction' },
                         { text: '如何申请', link: '/vpn/how-to-apply-vpn' },
+                        { text: '使用方法（PC端）', link: '/vpn/use-on-pc' },
                         { text: '常见问题', link: '/vpn/faq' }
                     ]
                 }
-            ],
+            ]
         },
         socialLinks: [{ icon: 'github', link: 'https://github.com/gdmuna/campus-web-guide' }],
         editLink: {
