@@ -9,5 +9,5 @@ hero:
     actions:
         - theme: brand
           text: 快速开始
-          link: /intro/what-is-campus-web
+          link: /web/intro/what-is-campus-web
 ---
