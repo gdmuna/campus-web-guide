@@ -9,6 +9,7 @@ export default withMermaid({
     head: [['link', { rel: 'icon', href: '/logo.svg' }]],
     base: '/',
     cleanUrls: true,
+    ignoreDeadLinks: true,
     appearance: true,
     lastUpdated: true,
     vite: {
@@ -20,29 +21,44 @@ export default withMermaid({
     },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        logo: '/logo.svg',
         nav: [
             { text: '主页', link: '/' },
             { text: '校园网', link: '/web/intro/what-is-campus-web' },
             { text: '校园 VPN', link: '/vpn/what-is-campus-vpn' }
         ],
         sidebar: {
-            vpn: [
+            '/web/': [
+                {
+                    text: '简介',
+                    items: [{ text: '什么是校园网', link: '/web/intro/what-is-campus-web' }]
+                }
+            ],
+            '/vpn/': [
                 {
                     text: '校园 VPN',
                     items: [
                         { text: '简介', link: '/vpn/what-is-campus-vpn' },
                         { text: '如何申请', link: '/vpn/how-to-apply' },
                         { text: '使用方法（PC端）', link: '/vpn/use-on-pc' },
-                        { text: '使用方法（iOS端、iPadOS端）', link: '/vpn/use-on-ios' },
-                        { text: '常见问题', link: '/vpn/faq' }
+                        { text: '使用方法（iOS端、iPadOS端）', link: '/vpn/use-on-ios' }
                     ]
                 }
             ]
         },
+        aside: true,
+        outline: 3,
         socialLinks: [{ icon: 'github', link: 'https://github.com/gdmuna/campus-web-guide' }],
         editLink: {
             pattern: 'https://github.com/gdmuna/campus-web-guide'
-        }
+        },
+        search: {
+            provider: 'local'
+        },
+        externalLinkIcon: true
+    },
+    sitemap: {
+        hostname: 'https://guide.campus-web.gdmuna.com/'
     },
     // https://emersonbottero.github.io/vitepress-plugin-mermaid
     mermaid: {},
