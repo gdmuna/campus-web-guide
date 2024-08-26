@@ -47,7 +47,10 @@ export default withMermaid({
             ]
         },
         aside: true,
-        outline: 3,
+        outline: {
+            level: 'deep',
+            label: '目录'
+        },
         socialLinks: [{ icon: 'github', link: 'https://github.com/gdmuna/campus-web-guide' }],
         editLink: {
             pattern: 'https://github.com/gdmuna/campus-web-guide'
