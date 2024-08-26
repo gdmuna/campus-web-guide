@@ -31,7 +31,16 @@ export default withMermaid({
             '/web/': [
                 {
                     text: '简介',
-                    items: [{ text: '什么是校园网', link: '/web/intro/what-is-campus-web' }]
+                    items: [
+                        { text: '什么是校园网', link: '/web/intro/what-is-campus-web' },
+                        { text: '套餐资费', link: '/web/intro/package-fee' },
+                        { text: '与校园卡的关系', link: '/web/intro/relationship-with-sim' },
+                        { text: '如何办理', link: '/web/intro/how-to-handle' }
+                    ]
+                },
+                {
+                    text: '联网方式',
+                    items: [{ text: '如何连接校园网', link: '/web/connect/how-to-connect' }]
                 }
             ],
             '/vpn/': [
