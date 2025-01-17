@@ -50,7 +50,9 @@ export default withMermaid({
                         { text: '简介', link: '/vpn/what-is-campus-vpn' },
                         { text: '如何申请', link: '/vpn/how-to-apply' },
                         { text: '使用方法（PC端）', link: '/vpn/use-on-pc' },
-                        { text: '使用方法（iOS端、iPadOS端）', link: '/vpn/use-on-ios' }
+                        { text: '使用方法（Android端）', link: '/vpn/use-on-android' },
+                        { text: '使用方法（iOS端、iPadOS端）', link: '/vpn/use-on-ios' },
+                        { text: '常见问题', link: '/vpn/faq' }
                     ]
                 }
             ]
