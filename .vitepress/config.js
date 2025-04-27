@@ -17,6 +17,11 @@ export default withMermaid({
             host: '0.0.0.0',
             port: 8081,
             open: true
+        },
+        resolve: {
+            alias: {
+                mermaid: 'mermaid/dist/mermaid.esm.mjs'
+            }
         }
     },
     themeConfig: {
