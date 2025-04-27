@@ -14,7 +14,7 @@
         "url": "git+https://github.com/gdmuna/campus-web-guide.git"
     },
     "engines": {
-        "node": "^18.0.0 || ^20.0.0"
+        "node": "^22.0.0"
     },
     "type": "module",
     "scripts": {
@@ -41,7 +41,6 @@
             "prettier --write"
         ]
     },
-    "dependencies": {},
     "devDependencies": {
         "eslint": "^8.57.0",
         "eslint-config-prettier": "^9.1.0",
@@ -49,10 +48,10 @@
         "eslint-plugin-vue": "^9.27.0",
         "husky": "^9.1.4",
         "lint-staged": "^15.2.8",
-        "mermaid": "^10.9.1",
+        "mermaid": "^11.6.0",
         "prettier": "3.3.3",
-        "vitepress": "^1.3.2",
-        "vitepress-plugin-mermaid": "^2.0.16",
+        "vitepress": "^1.6.3",
+        "vitepress-plugin-mermaid": "^2.0.17",
         "vue-eslint-parser": "^9.4.3"
     }
 }
