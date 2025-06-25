@@ -27,8 +27,11 @@
         "lint:lint-staged": "lint-staged"
     },
     "lint-staged": {
-        "*.{js,cjs,mjs,jsx,ts,tsx,html,vue}": [
+        "*.{js,cjs,mjs,jsx,ts,tsx,vue}": [
             "eslint --fix",
+            "prettier --write"
+        ],
+        "*.html": [
             "prettier --write"
         ],
         "*.{css,scss,less,styl}": [
@@ -51,6 +54,7 @@
         "mermaid": "^11.6.0",
         "prettier": "3.3.3",
         "vitepress": "^1.6.3",
+        "vitepress-plugin-llms": "^1.1.3",
         "vitepress-plugin-mermaid": "^2.0.17",
         "vue-eslint-parser": "^9.4.3"
     }
